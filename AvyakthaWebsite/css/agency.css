@@ -787,6 +787,7 @@ ul.social-buttons {
     min-height: 100%;
     padding: 100px 0;
     text-align: center;
+    background: rgba(0,0,0,0.5);
 }
 
     .portfolio-modal .modal-content h2 {
@@ -825,14 +826,14 @@ ul.social-buttons {
 }
 
     .portfolio-modal .close-modal:hover {
-        opacity: 0.3;
+        opacity: 0.6;
     }
 
     .portfolio-modal .close-modal .lr {
         height: 75px;
         width: 1px;
         margin-left: 35px;
-        background-color: #222222;
+        background-color: #fff;
         transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         /* IE 9 */
@@ -844,7 +845,7 @@ ul.social-buttons {
         .portfolio-modal .close-modal .lr .rl {
             height: 75px;
             width: 1px;
-            background-color: #222222;
+            background-color: #fff;
             transform: rotate(90deg);
             -ms-transform: rotate(90deg);
             /* IE 9 */
